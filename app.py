@@ -3,8 +3,12 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 import os
 
-model_path = os.path.join(os.path.join(os.getcwd(), "data"), "model.pkl")
-template_folder = os.path.join(os.path.join(os.getcwd(), "templates"))
+# model_path = os.path.join(os.path.join(os.getcwd(), "data"), "model.pkl")
+# template_folder = os.path.join(os.path.join(os.getcwd(), "templates"))
+#
+model_path = ".\data\model.pkl"
+template_folder = ".\\templates"
+
 
 app = Flask(__name__, template_folder = template_folder)
 # app.debug= True
