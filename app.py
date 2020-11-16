@@ -10,7 +10,7 @@ import os
 # template_folder = ".\\templates"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-model_path = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/data/model.pkl')
+model_path = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/model.pkl')
 template_folder = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/templates')
 
 
