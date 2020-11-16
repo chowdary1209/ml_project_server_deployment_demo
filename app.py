@@ -10,8 +10,8 @@ import os
 # template_folder = ".\\templates"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-model_path = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/model.pkl')
-template_folder = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/templates')
+model_path = os.path.join(BASE_DIR, 'model.pkl')
+template_folder = os.path.join(BASE_DIR, 'templates')
 
 
 app = Flask(__name__, template_folder = template_folder)
