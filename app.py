@@ -9,8 +9,8 @@ import os
 # model_path = ".\data\model.pkl"
 # template_folder = ".\\templates"
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-model_path = os.path.join(BASE_DIR, 'model.pkl')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, 'data/model.pkl')
 template_folder = os.path.join(BASE_DIR, 'templates')
 
 
