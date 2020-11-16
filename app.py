@@ -5,12 +5,13 @@ import os
 
 # model_path = os.path.join(os.path.join(os.getcwd(), "data"), "model.pkl")
 # template_folder = os.path.join(os.path.join(os.getcwd(), "templates"))
+
 # model_path = ".\data\model.pkl"
 # template_folder = ".\\templates"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-model_path = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo\data\model.pkl')
-template_folder = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo\data\\templates')
+model_path = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/data/model.pkl')
+template_folder = os.path.join(BASE_DIR, 'ml_project_server_deployment_demo/templates')
 
 
 app = Flask(__name__, template_folder = template_folder)
